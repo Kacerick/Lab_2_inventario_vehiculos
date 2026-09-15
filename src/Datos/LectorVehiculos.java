@@ -28,6 +28,9 @@ public class LectorVehiculos {
             } else if (tipo.equalsIgnoreCase("CAMIONETA")) {
                 vehiculos.add(new Camioneta(marca, modelo, anio,
                         precio, caracteristica));
+            } else if (tipo.equalsIgnoreCase("MOTOCICLETA")) {
+                vehiculos.add(new Motocicleta(marca,modelo,anio,precio,(int)caracteristica));
+
             }
         }
         return vehiculos;
