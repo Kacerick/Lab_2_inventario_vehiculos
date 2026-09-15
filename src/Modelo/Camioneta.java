@@ -1,4 +1,4 @@
-package modelo;
+package Modelo;
 
 public class Camioneta extends Vehiculo {
     private final double capacidadCarga;

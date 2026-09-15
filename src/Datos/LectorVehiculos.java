@@ -1,13 +1,11 @@
-package datos;
+package Datos;
 
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.List;
-import modelo.Automovil;
-import modelo.Camioneta;
-import modelo.Vehiculo;
+import Modelo.*;
 
 public class LectorVehiculos {
 

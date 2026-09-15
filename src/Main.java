@@ -1,8 +1,8 @@
-import datos.LectorVehiculos;
+import Datos.LectorVehiculos;
 import java.io.IOException;
 import java.nio.file.Path;
 import java.util.List;
-import modelo.Vehiculo;
+import Modelo.Vehiculo;
 
 public class Main {
     public static void main(String[] args) {

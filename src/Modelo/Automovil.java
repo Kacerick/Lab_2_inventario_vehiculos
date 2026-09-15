@@ -1,4 +1,4 @@
-package modelo;
+package Modelo;
 
 public class Automovil extends Vehiculo {
     private final int cantidadPuertas;
